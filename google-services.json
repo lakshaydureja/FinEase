@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975780523193",
+    "firebase_url": "https://finease-188dc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finease-188dc",
+    "storage_bucket": "finease-188dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975780523193:android:74eefbfde0e9e7e6afbf68",
+        "android_client_info": {
+          "package_name": "com.app.finease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975780523193-se4242ui39so25lbq02j81cblj1m72ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.finease",
+            "certificate_hash": "30cb50b7fd35d97b995a21a6fde1814ea6c27602"
+          }
+        },
+        {
+          "client_id": "975780523193-9m85cablce6kvnv99mg3e1h3kss9q8up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANzYjeoxstAxlL_rr9gsgFl1Kw55e8ewU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975780523193-9m85cablce6kvnv99mg3e1h3kss9q8up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

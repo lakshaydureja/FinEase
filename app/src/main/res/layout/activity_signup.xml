@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Signup">
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextPersonName"-->
+    <!--        android:layout_width="239dp"-->
+    <!--        android:layout_height="53dp"-->
+    <!--        android:drawableLeft="@drawable/ic_person"-->
+    <!--        android:drawablePadding="10dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Name"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textColor="@color/black"-->
+
+    <!--        android:textColorHint="@color/black"-->
+    <!--        tools:layout_editor_absoluteX="-112dp"-->
+    <!--        tools:layout_editor_absoluteY="425dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextEmailAddress"-->
+    <!--        android:layout_width="239dp"-->
+    <!--        android:layout_height="53dp"-->
+    <!--        android:drawableLeft="@drawable/ic_email"-->
+    <!--        android:drawablePadding="10dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="E-Mail"-->
+
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        android:textColor="@color/black"-->
+
+    <!--        android:textColorHint="@color/black"-->
+    <!--        tools:layout_editor_absoluteX="-120dp"-->
+    <!--        tools:layout_editor_absoluteY="514dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextPhone"-->
+    <!--        android:layout_width="239dp"-->
+    <!--        android:layout_height="53dp"-->
+    <!--        android:drawableLeft="@drawable/ic_phone"-->
+    <!--        android:drawablePadding="10dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Mobile No"-->
+    <!--        android:inputType="phone"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textColorHint="@color/black"-->
+    <!--        tools:layout_editor_absoluteX="86dp"-->
+    <!--        tools:layout_editor_absoluteY="543dp" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/til1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signup" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="77dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til1"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="11dp"
+        android:hint="Name"
+        android:textColorHint="#060606"
+        app:hintAnimationEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/til2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:startIconDrawable="@drawable/ic_person"
+        app:startIconTint="#000000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E"
+            android:textColorHint="#121212" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til2"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="12dp"
+        android:hint="E-Mail"
+        android:textColorHint="#060606"
+        app:hintAnimationEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/til3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til1"
+        app:startIconDrawable="@drawable/ic_email"
+        app:startIconTint="#000000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#0E0E0E"
+
+            android:textColorHint="#121212" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="34dp"
+        android:hint="Mobile No"
+        android:textColorHint="#060606"
+        app:hintAnimationEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til2"
+        app:startIconDrawable="@drawable/ic_phone"
+        app:startIconTint="#000000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ti3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textColor="#0E0E0E"
+
+            android:textColorHint="#121212" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
