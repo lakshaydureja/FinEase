@@ -3,7 +3,7 @@
  
  
  
-![home](https://github.com/lakshaydureja/FinEase/assets/90222838/0c7c4e4d-8003-4153-8edb-34a2c4045f68  | width=100)
+![home](https://github.com/lakshaydureja/FinEase/assets/90222838/0c7c4e4d-8003-4153-8edb-34a2c4045f68 | width=100)
 ![Navigation Drawer](https://github.com/lakshaydureja/FinEase/assets/90222838/cf6c88fe-8596-4aca-94e8-4258beab4fb1)
 ![otp screen](https://github.com/lakshaydureja/FinEase/assets/90222838/22e8bce4-b83d-4ca4-a79a-0c1aa2825073)
 ![sign up](https://github.com/lakshaydureja/FinEase/assets/90222838/9214ac30-44ad-40e0-80f1-7271df1454a3)
