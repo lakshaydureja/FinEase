@@ -1,14 +1,58 @@
-# FinEase
- "FinEase is an android app that connects college students with part-time job opportunities, empowering them to showcase their skills, gain valuable work experience, and earn extra income."
- 
- 
- 
-![home](https://github.com/lakshaydureja/FinEase/assets/90222838/0c7c4e4d-8003-4153-8edb-34a2c4045f68)
-![Navigation Drawer](https://github.com/lakshaydureja/FinEase/assets/90222838/cf6c88fe-8596-4aca-94e8-4258beab4fb1)
-![otp screen](https://github.com/lakshaydureja/FinEase/assets/90222838/22e8bce4-b83d-4ca4-a79a-0c1aa2825073)
-![sign up](https://github.com/lakshaydureja/FinEase/assets/90222838/9214ac30-44ad-40e0-80f1-7271df1454a3)
-![ss](https://github.com/lakshaydureja/FinEase/assets/90222838/d662bfa4-f9a4-47a2-baa0-142fefa55b62)
-![talent post](https://github.com/lakshaydureja/FinEase/assets/90222838/e0e5229e-2844-4e14-a34d-48dc2422d3e8)
-![talent](https://github.com/lakshaydureja/FinEase/assets/90222838/c5aae4b0-3f4e-44e7-a645-2dca6a745c02)
-![user onboarding](https://github.com/lakshaydureja/FinEase/assets/90222838/ec1a50fe-50b0-4187-9ba3-8cb84ba491b3)
-![click item](https://github.com/lakshaydureja/FinEase/assets/90222838/c9bda961-d37e-4296-981e-203f6f065cae)
+# FinEase App
+
+The **FinEase App** is an Android-based freelancing platform designed to bridge the gap between part-time job seekers and those in need of diverse skills. This initiative aims to foster a culture of part-time earning among youth in rapidly growing regions, addressing issues related to skill-based employment and talent recognition.
+
+*The app connects college students with local opportunities in various non-technical fields, helping them earn while they learn and gain practical experience.*
+
+## Screenshots
+
+<p align="center">
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/home.jpg?raw=true" alt="Homepage of app" width="250"/>
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/talent.jpg?raw=true" alt="Job Listings Screen" width="250"/>
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/talent%20post.jpg?raw=true" alt="" width="250"/>
+</p>
+<p align="center">
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/workflow.png?raw=true" alt="flow of app" width="750"/>
+</p>
+<p align="center">
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/Navigation%20Drawer.jpg?raw=true" alt="" width="250"/>
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/otp%20screen.jpg?raw=true" alt="otp Screen" width="250"/>
+<img src="https://github.com/lakshaydureja/FinEase/blob/master/readmeImgs/sign%20up.jpg?raw=true" alt="sign up page" width="250"/>
+</p>
+
+
+## Key Features
+
+- **Profile Creation:**
+  - Users can create detailed profiles showcasing their skills and talents, such as cooking, singing, skit playing, and more.
+
+- **Location-Based Job Opportunities:**
+  - The app generates job opportunities based on users' locations, helping them find relevant part-time work nearby.
+
+- **Talent Matching:**
+  - Facilitates matching of job requests with profiles based on specific skills, allowing users to find and book services like event catering or tutoring.
+
+- **Job Posting and Job Applyng feature:**
+  - Users can post jobs & students can apply to jobs.
+
+- **User-Friendly Interface:**
+  - Intuitive design for seamless navigation through job listings, profiles, and application features.
+
+## Technologies Used
+
+- **Kotlin:** Provides a modern and efficient framework for Android app development.
+- **XML:** Used for designing the app’s user interface.
+- **Firebase:** Includes services for:
+  - **Authentication (OTP):** Secure user authentication.
+  - **Realtime Database:** Real-time data synchronization and management.
+  - **Analytics:** Tracking user interactions and app performance.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/lakshaydureja/FinEase`
+2. Open the project in Android Studio.
+3. Build and run the app on an emulator or a physical device.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests with suggestions or improvements for the app.
